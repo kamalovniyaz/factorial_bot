@@ -31,3 +31,8 @@
 1. Сборки Docker контейнера: `docker build -t bot_app .`
 2. Запуск Docker контейнера: `docker docker run -d bot_app`
 
+## Использованные библиотеки
+
+1. `pytelegrambotapi` - создания Telegram бота
+2. `python-decouple` - отделения конфигурации от кода.
+3. `black` - линтер для поддержания единого стиля кодирования.
